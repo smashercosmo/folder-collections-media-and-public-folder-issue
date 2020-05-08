@@ -1,0 +1,33 @@
+{
+  "name": "folder-collections-media-and-public-folder-issue",
+  "private": true,
+  "description": "",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "2.21.20",
+    "gatsby-plugin-netlify-cms": "4.3.1",
+    "gatsby-plugin-netlify-cms-paths": "1.3.0",
+    "gatsby-plugin-sharp": "2.6.2",
+    "gatsby-remark-images": "3.3.2",
+    "gatsby-source-filesystem": "2.3.1",
+    "gatsby-transformer-remark": "2.8.7",
+    "gatsby-transformer-sharp": "2.5.2",
+    "netlify-cms-app": "2.12.12",
+    "netlify-cms-proxy-server": "1.2.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smashercosmo/folder-collections-media-and-public-folder-issue"
+  },
+  "bugs": {
+    "url": "https://github.com/smashercosmo/folder-collections-media-and-public-folder-issue/issues"
+  }
+}

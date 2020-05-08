@@ -1,0 +1,19 @@
+media_folder: static/img
+public_folder: /img
+backend:
+  name: git-gateway
+
+collections:
+  - label: Posts
+    label_singular: post
+    name: posts
+    folder: content/posts
+    media_folder: '/{{media_folder}}/posts/{{filename}}'
+    public_folder: '{{public_folder}}/posts/{{filename}}'
+    format: frontmatter
+    create: true
+    identifier_field: title
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Cover image, name: cover, widget: image, required: false}
+      - {label: Body, name: body, widget: markdown}
